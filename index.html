@@ -1,12 +1,361 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<title>Emirhan Gul</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Tarım,sera,suşehri,Suşehri">
+    <meta name="description" content="Suşehri Sera Tarım">
+    <title>Tarım</title>
+    <style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			background-image: url(resimler/985117248978a61d2a1e819fb23f1ec1.jpg);
+			background-position: center;
+			background-size: 300px;
+			background-repeat: no-repeat;
+		}
+
+		#site{
+			min-height: 600px;
+			max-width: 900px;
+			margin: auto;
+		}
+		header{
+			height: 100px;
+			width: 900px;
+			margin: auto;
+		}
+
+		#logo{
+			width: 80px;
+			height: 80px;
+			position: relative;
+			top: 10px;
+			left: 5px;
+			float: left; 
+		}
+
+		#logo img{
+			max-width: 80px;
+			max-height: 80px;
+			object-fit: contain;
+		}
+
+		#baslik{
+			width: 700px;
+			height: 10px;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		#reklam{
+			width: 180px;
+			height: 40px;
+			position: relative;
+			padding-top: 10px;
+			right: 5px;
+			float: right;
+			margin-right: 40px;
+		}
+
+		#reklam img{
+			max-width: 40px;
+			height: 40px;
+			margin: 10px;
+			margin-top: 20px ;
+			margin-right: 10px;
+		}
+
+		#anamenu{
+			height: 50px;
+			width: 900px;
+			margin: auto;
+		}
+
+		#anamenu ul{
+			height: 50px;
+			width: 900px;
+			padding: 30pxs;
+			list-style-type: none;
+		}
+
+		#anamenu ul li{
+			width: 150px;
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 10px;
+			text-align: center;
+			float: left;
+			margin-left: 20px;
+			margin-top: 10px ;
+		}
+
+		#anamenu ul li a{
+			font-family: 'Times New Roman', Times, serif;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+		#anamenu ul li a:link{
+			color: blue;
+		}
+
+		#anamenu ul li a:visited{
+			color: red;
+		}
+
+		#anamenu ul li a:hover{
+			text-decoration: underline;
+			font-size: 20px;
+		}
+
+		#icerik{
+			height: 750px;
+			width: 600px;
+			float: left;
+		}
+
+		#icerik img{
+			width: 250px;
+			float: left;
+			margin: 20px;
+		}
+
+		#icerik p{
+			font-family: 'Times New Roman', Times, serif;
+			color: rgb(36, 10, 185) ;
+			font-size: 20px;
+			margin: 10px;
+		}
+
+		#icerik h1{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 40px;
+			margin: 10px;
+		}
+
+		#yanmenu{
+			height: 750px;
+			width: 300px;
+			float: left;
+		}
+
+		#yanmenu h1{
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			font-size: 40px;
+			text-align: center;
+		}
+
+		#yanmenu ul{
+			list-style-type: none;
+			text-align: center;
+			padding: 18px;
+			
+		}
+
+		#yanmenu ul li{
+			padding: 5px;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+			font-size: 20px ;
+		}
+
+		#altmenu{
+			height: 80px;
+			width: 900px;
+			float: left;
+		}
+
+		#altmenu ul{
+			height: 10px;
+			width: 900px;
+			padding: 30pxs;
+			list-style-type: none;
+			margin-top: 10px;
+		}
+
+		#altmenu ul li{
+			width: 150px;
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 10px;
+			text-align: center;
+			float: left;
+			margin-left: 20px;
+		}
+
+		#altmenu ul li a{
+			font-family: 'Times New Roman', Times, serif;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+		}
+
+		#altmenu ul li a:link{
+			color: blue;
+		}
+
+		#altmenu ul li a:visited{
+			color: red;
+		}
+
+		#altmenu ul li a:hover{
+			text-decoration: underline;
+			font-size: 20px;
+		}
+
+		#altmenu p{
+			width: 200px;
+			color: black;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			box-shadow: 5px 5px 20px rgb(100, 139, 211);
+			margin: auto;
+			margin-top: 8px;
+		}
+
+
+
+
+
+	</style>
 </head>
 <body>
+    <div id="site">
 
-<h1 style="color:blue;">This is Emirhan</h1>
-<p style="font-size:50px;">Student Number: 170420028 </p>
+        <header id="banner">
+            <div id="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="">
+            </div>
+            <div id="baslik">
+                <h1 style="background-image: url('https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg'); background-repeat: no-repeat;">Not Defteri Sitemize Hoşgeldiniz</h1>
+            </div>
+            <div id="reklam">
+                <a href="#"><img src="https://i.natgeofe.com/n/56ad4f59-e256-42b1-bf7c-d04193068703/horse_thumb_2x3.jpg" alt="icon1.png" title="Kafa adam"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Kangal_dog_with_spikey_collar%2C_Turkey.jpg" alt="icon2.png" title="Duygusal kız"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Haliaeetus_leucocephalus4_%28softeis%29.jpg/800px-Haliaeetus_leucocephalus4_%28softeis%29.jpg" alt="icon3.png" title="go"></a>
+            </div>
+        </header>
 
+        <nav id="anamenu">
+            <ul>
+                <li><a href="Anasayfa.html" target="_self" title="Bizimle İlgili Çıkan Haberler">Haberler</a></li>
+                <li><a href="Fotoğraflar.html" target="_self" title="Seramıza Ait Fotoğraflar">Fotoğraflar</a></li>
+                <li><a href="Hakkımızda.html" target="_self" title="Seramıza Ait Bilgiler">Hakkımızda</a></li>
+                <li><a href="İletişim.html" target="_self" title="İletişim Bilgileri">İletişim Bilgileri</a></li>
+                <li><a href="Konum.html" target="_self" title="Google Maps Üzerinden Konum">Konum</a></li>
+            </ul>
+        </nav>
+
+        <article id="icerik">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/bojnice-castle-1603142898.jpg" alt="ülke.jpg" title="Düşler ülkesi">
+            <h1>Başlık</h1>
+            <p style="background-image: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3doeS1pcy1za3ktYmx1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==');">
+                Lorem ipsum dolor sitamet, consectetur adipiscing elit. Duis varius nisl qui
+                  aliquam pulvinar. In maximus odio a sem
+                  per tincidunt. Mauris suscipit suscipit feugiat. Aliquam vel condimen
+                  tum tortor. Sed nec accumsan ligula, nec pretium arcu. Aenean egest
+                  as feugiat purus eget cursus. Curabitur pellentesque, erat at rutru
+                  m sodales, elit sapien commodo nisl, ut dictum metus neque ac turp
+                  is. Donec porta odio vitae ligula elementum semper. Donec ullamco
+                  rper arcu sapien, et efficitur lorem varius eu. Morbi nec vestibulu
+                  m urna. Ut sollicitudin tristique leo, egestas pretium orci 
+                  euismod ut. Ut malesuada fermentum nisl id viverra. Nullam tempus, urna
+                   id finibus mattis, elit risus euismod ipsum, eu vulputate dolor justo
+                    ut est. Aliquam a odio ligulaCurabitur ac sapien eu diam molestie semper 
+                    tristique a urna. In ultrices dolor diam, vitae pharetra ipsum posuere ac
+                    . Integer non placerat sem. Nulla maximus tortor dolor, id blandit puru
+                    s tristique in. Integer laoreet, tellus ac consectetur accumsan, nunc u
+                    rna suscipit mauris, at fermentum diam lacus nec urna. Lorem ipsum dolo
+                    r sit amet, consectetur adipiscing elit. Sed cursus eu lacus non bibendum.
+            </p>
+            <iframe width="300" height="150" src="https://www.youtube.com/embed/pmngG23MjWM" title="Bingöl Kartal Oyunu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+
+        <aside id="yanmenu">
+            <h1>TOP 50</h1>
+            <ul>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+                <li>
+                    <p>movie</p>
+                </li>
+            </ul>
+        </aside>
+
+        <footer id="altmenu">
+            <ul>
+                <li><a href="Anasayfa.html" target="_self" title="Bizimle İlgili Çıkan Haberler">Haberler</a></li>
+                <li><a href="Fotoğraflar.html" target="_self" title="Seramıza Ait Fotoğraflar">Fotoğraflar</a></li>
+                <li><a href="Hakkımızda.html" target="_self" title="Seramıza Ait Bilgiler">Hakkımızda</a></li>
+                <li><a href="İletişim.html" target="_self" title="İletişim Bilgileri">İletişim Bilgileri</a></li>
+                <li><a href="Konum.html" target="_self" title="Google Maps Üzerinden Konum">Konum</a></li>
+            </ul>
+            <br>
+            <p>Tüm Hakları Saklıdır.</p>
+        </footer>
+
+    </div>
 </body>
 </html>
