@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614617346313",
+    "project_id": "wayfarersolutions-a150c",
+    "storage_bucket": "wayfarersolutions-a150c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614617346313:android:7ea0884574b882f4ec23d8",
+        "android_client_info": {
+          "package_name": "com.emirhan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXO4P1Yn5jAFuhaG6lhF4jjElNKwC96xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614617346313:android:a0ec72b1a87cee76ec23d8",
+        "android_client_info": {
+          "package_name": "ds.na"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXO4P1Yn5jAFuhaG6lhF4jjElNKwC96xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
